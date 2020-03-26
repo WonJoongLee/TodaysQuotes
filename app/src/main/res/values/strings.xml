@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TodaysQuotes</string>
+
+    <string name="title_1">- Steve Jobs</string>
+    <string name="title_2">- Martin Luther King</string>
+    <string name="title_3">- Napoleon</string>
+    <string name="title_4">- Barak Obama</string>
+
+    <string name="text_1">We are here to put a dent in the universe. otherwise why else even be here?</string>
+    <string name="text_2">Our lives begin to end the day we become silent about things that matter.</string>
+    <string name="text_3">Show me a family of readers, and I will show you the people who move the world.</string>
+    <string name="text_4">If you are walking down the right path and you are willing to keep walking, eventually you will make progress.</string>
+
+    <string name="admob_app_id">ca-app-pub-3717245092677551~9258928560</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3717245092677551/9938064349</string>
+    <string name="banner_ad_unit_id_for_test">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>
+

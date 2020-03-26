@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBeigeGreen">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_gravity="center|top"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingBottom="30dp"
+        android:paddingEnd="45dp"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:paddingStart="45dp"
+        android:layout_marginTop="90dp"/>
+
+
+    <com.google.android.gms.ads.AdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/adView"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id_for_test"
+        android:layout_marginBottom="30dp"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
